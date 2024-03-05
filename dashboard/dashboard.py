@@ -44,7 +44,7 @@ def create_hour(df):
     return hour_fall, hour_spring, hour_winter, hour_summer
 
 day_df = pd.read_csv("https://raw.githubusercontent.com/mdwiratathyap/bike-share-dicoding/main/dashboard/day_clean_data.csv")
-hour_df = pd.read_csv("hour_clean_data.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/mdwiratathyap/bike-share-dicoding/main/dashboard/hour_clean_data.csv")
 
 datetime_columns = ["dteday"]
 day_df.sort_values(by="instant", inplace=True)
